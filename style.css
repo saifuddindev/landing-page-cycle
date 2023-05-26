@@ -1,0 +1,256 @@
+.navigation-bar,
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.container-main {
+    background-image: url(image/road-bike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.menu-text-content a {
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container-main1 {
+    justify-content: space-between;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-logo {
+    text-align: center;
+}
+
+.search-button {
+    border: 1px solid white;
+    padding: 5px 5px;
+    background-image: linear-gradient(to right, #9bf7b2, #f7c7cf);
+    color: black;
+}
+
+.search-button a {
+    text-decoration: none;
+}
+
+.banner-text {
+    text-align: center;
+    margin-top: 110px;
+    color: white;
+}
+
+.buy-now {
+    border: 1px solid white;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, #9bf7b2, #f7c7cf);
+    color: black;
+}
+
+.banner-text a {
+    text-decoration: none;
+}
+
+.h-font-size {
+    font-size: 50px;
+}
+
+.leaf-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.banner-bottom-text {
+    color: white;
+    text-align: center;
+    background-color: rgb(32, 32, 32, 0.6);
+    padding: 25px 20px;
+}
+
+.banner-bottom-style {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+@media (max-width: 576px) {
+    .container-main1 {
+        display: block;
+        text-align: center;
+    }
+
+    .logo-heading {
+        font-size: 20px;
+    }
+
+    .menu-text-content a {
+        font-size: 6px;
+    }
+
+    .menu-text ul {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .menu-text {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .our-services {
+        padding-bottom: 300px;
+    }
+
+    .about-us-image img {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .menu-search {
+        display: block;
+        text-align: center;
+    }
+
+    .about-us-image img {
+        width: 90%;
+    }
+}
+
+.bg-color {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started {
+    width: 60%;
+}
+
+.get-button {
+    border: 1px solid white;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, #9bf7b2, #f7c7cf);
+}
+
+.get-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.get-started,
+.get-button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.get-started-text {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.our-services {
+    position: relative;
+    display: inline-block;
+}
+
+.our-services {
+    background-image: url(image/services-page-image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.head-our-services {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.our-services-content {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.services-content img {
+    width: 50px;
+    height: 50px;
+}
+
+.services-content {
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.service-content-section,
+.service-content-section2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-us {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.about-us-content-area {
+    width: 50%;
+}
+
+.about-us-image {
+    width: 50%;
+    text-align: center;
+}
+
+.about-us-image img {
+    display: inline-block;
+}
+
+.find-here-button {
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #9bf7b2, #f7c7cf);
+    margin-left: 10px;
+}
+
+.find-here-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(77, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
